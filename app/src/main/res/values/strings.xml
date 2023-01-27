@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">AmplitudoAkademija</string>
+    <string name="all_tasks">All Tasks</string>
+    <string name="add_task">Add Task</string>
+    <string name="task_description">Task Description</string>
+    <string name="task_description_hint">Write your task description…</string>
+    <string name="done">Done</string>
+    <string name="to_do">To Do</string>
+    <string name="removed_task">Task with ID %s has been finished!</string>
+    <string name="ignore_click">We are ignoring clicks here!</string>
+    <string name="success_add_task">Successfully added task!</string>
+</resources>

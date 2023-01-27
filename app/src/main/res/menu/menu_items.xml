@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/fragmentAllTasks"
+        android:icon="@drawable/ic_all_tasks"
+        android:title="@string/all_tasks" />
+    <item
+        android:id="@+id/todoTaskFragment"
+        android:icon="@drawable/ic_todo"
+        android:title="@string/to_do" />
+    <item
+        android:id="@+id/doneFragment"
+        android:icon="@drawable/ic_done"
+        android:title="@string/done" />
+</menu>

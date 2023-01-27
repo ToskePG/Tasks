@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/fragmentAllTasks">
+    <fragment
+        android:id="@+id/fragmentAllTasks"
+        android:name="llc.amplitudo.amplitudo_akademija.ui.all_tasks.AllTasksFragment"
+        android:label="AllTasksFragment"
+        tools:layout="@layout/fragment_all_tasks">
+        <action
+            android:id="@+id/action_fragmentAllTasks_to_addTaskFragment"
+            app:destination="@id/addTaskFragment"
+            app:enterAnim="@anim/fade_in"
+            app:exitAnim="@anim/fade_out" />
+    </fragment>
+    <fragment
+        android:id="@+id/doneFragment"
+        android:name="llc.amplitudo.amplitudo_akademija.ui.done_tasks.DoneTasksFragment"
+        android:label="GetStartedFragment"
+        tools:layout="@layout/fragment_done_tasks" />
+    <fragment
+        android:id="@+id/todoTaskFragment"
+        android:name="llc.amplitudo.amplitudo_akademija.ui.todo_tasks.TodoTasksFragment"
+        android:label="TodoTaskFragment"
+        tools:layout="@layout/fragment_todo_tasks" />
+    <fragment
+        android:id="@+id/addTaskFragment"
+        android:name="llc.amplitudo.amplitudo_akademija.ui.add_task.AddTaskFragment"
+        android:label="AddTaskFragment" />
+</navigation>
